@@ -1,5 +1,10 @@
-@import "./components/page-header";
-@import "./components/page-header";
-@import "./components/page-header";
-@import "./components/page-header";
-@import "./components/page-header";
+@import "./utils/variables";
+@import "./base/common";
+@import "./base/container";
+@import "./utils/visually-hidden";
+@import "./layout/page-header";
+@import "./layout/main-section";
+@import "./layout/section-qualities";
+@import "./layout/section-works";
+@import "./layout/section-team";
+@import "./layout/section-clients";

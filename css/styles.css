@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --color-one: #fff;
   --color-two: #2196f3;
   --color-three: #212121;
@@ -46,7 +46,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* !!! ================ MAIN STYLES ================= !!! */
 
@@ -275,7 +275,7 @@ img {
   line-height: 1.16;
   text-align: center;
 }
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -286,7 +286,7 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 .section-qualities__list {
   display: flex;
   gap: 30px;
