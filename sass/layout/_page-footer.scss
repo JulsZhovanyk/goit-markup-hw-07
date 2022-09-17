@@ -17,21 +17,25 @@
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+
+  &_light {
+    color: var(--color-one);
+  }
 }
-.logo__second-part_light {
-  color: var(--color-one);
-}
+
 .addresses-list__street {
   font-size: 14px;
   line-height: 1.7;
   color: var(--color-one);
   text-decoration: none;
   transition: color var(--transition-duration-function);
+
+  &:hover,
+  &:focus {
+    @extend %hover-color;
+  }
 }
-.addresses-list__street:hover,
-.addresses-list__street:focus {
-  @extend %hover-color;
-}
+
 .addresses-list {
   display: flex;
   flex-direction: column;
@@ -46,11 +50,13 @@
   text-decoration: none;
   font-style: normal;
   transition: color var(--transition-duration-function);
+
+  &:hover,
+  &:focus {
+    @extend %hover-color;
+  }
 }
-.addresses-list__link:hover,
-.addresses-list__link:focus {
-  @extend %hover-color;
-}
+
 .social-links {
   margin-left: 70px;
 }
@@ -74,15 +80,17 @@
   align-items: center;
   justify-content: center;
   transition: background-color var(--transition-duration-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-two);
+  }
 }
 .social-links__icon {
   @include icon-size(20px, 20px);
   fill: var(--color-one);
 }
-.social-links__link:hover,
-.social-links__link:focus {
-  background-color: var(--color-two);
-}
+
 .application-mail {
   display: flex;
   flex-direction: column;
@@ -131,12 +139,14 @@
   border-radius: 4px;
   transition: box-shadow var(--transition-duration-function),
     background-color var(--transition-duration-function);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--color-eight);
+  }
 }
-.application__btn:hover,
-.application__btn:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color-eight);
-}
+
 .application__icon {
   @include icon-size(24px, 24px);
   fill: var(--color-one);

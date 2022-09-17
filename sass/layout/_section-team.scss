@@ -57,19 +57,21 @@
   justify-content: center;
   transition: filter var(--transition-duration-function),
     background-color var(--transition-duration-function);
+
+  &:hover,
+  &:focus {
+    fill: var(--color-one);
+    background-color: var(--color-two);
+  }
 }
 .worker__icon {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
   transition: fill var(--transition-duration-function);
-}
-.worker__link:hover,
-.worker__link:focus {
-  fill: var(--color-one);
-  background-color: var(--color-two);
-}
-.worker__link:hover .worker__icon,
-.worker__link:focus .worker__icon {
-  fill: var(--color-one);
+
+  .worker__link:hover &,
+  .worker__link:focus & {
+    fill: var(--color-one);
+  }
 }
