@@ -1,0 +1,9 @@
+@mixin icon-size($w, $h) {
+  weight: $w;
+  height: $h;
+}
+@mixin font($fs, $fw, $lh) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh / $fs;
+}

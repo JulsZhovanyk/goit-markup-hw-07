@@ -1,0 +1,17 @@
+.section-works {
+  padding-bottom: 94px;
+}
+.section-works__list {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  @extend %list-style;
+}
+.section-works__img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.section-header__section-works {
+  margin-bottom: 50px;
+}
