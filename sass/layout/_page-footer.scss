@@ -3,6 +3,11 @@
   padding-top: 94px;
   padding-bottom: 94px;
   display: flex;
+
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .addresses-list__street {
