@@ -5,12 +5,12 @@
   margin-left: auto;
   margin-right: auto;
 
-  .&__page-header {
+  &__page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .&__page-footer {
+  &__page-footer {
     display: flex;
     align-items: baseline;
   }
