@@ -1,4 +1,6 @@
 @import "./utils/variables";
+@import "./utils/placeholders";
+@import "./utils/mixins";
 @import "./base/common";
 @import "./base/container";
 @import "./utils/visually-hidden";
@@ -18,5 +20,3 @@
 @import "./components/backdrop";
 @import "./components/modal";
 @import "./utils/animation";
-@import "./utils/placeholders";
-@import "./utils/mixins";
