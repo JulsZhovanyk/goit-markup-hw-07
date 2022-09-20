@@ -707,13 +707,6 @@ img {
   color: var(--color-two);
 }
 
-.contacts__link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  display: inline-block;
-  transition: color var(--transition-duration-function);
-}
-
 .menu__link_current {
   color: var(--color-two);
 }
@@ -741,6 +734,10 @@ img {
   text-decoration: none;
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline-block;
+  transition: color var(--transition-duration-function);
 }
 .contacts__icon {
   fill: var(--color-seven);
